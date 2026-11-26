@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 2,
+  "version": 3,
   "profiles": [
     {
       "source": "builtin/astera/titan-tube",
@@ -353,6 +353,65 @@
       "channels": [
         "dimmer",
         "dimmerFine",
+        "cct",
+        "tint",
+        "colorMix",
+        "red",
+        "green",
+        "blue"
+      ],
+      "revision": "2020-08-11",
+      "colorEncoding": "astera"
+    },
+    {
+      "source": "builtin/astera/titan-tube",
+      "name": "Astera Titan Tube · 1 · RGB, 1 pixel, Strobe Off",
+      "channels": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "revision": "2020-08-11"
+    },
+    {
+      "source": "builtin/astera/titan-tube",
+      "name": "Astera Titan Tube · 2 · RGBW, 1 pixel, Strobe Off",
+      "channels": [
+        "red",
+        "green",
+        "blue",
+        "white"
+      ],
+      "revision": "2020-08-11"
+    },
+    {
+      "source": "builtin/astera/titan-tube",
+      "name": "Astera Titan Tube · 4 · DIM RGB, 1 pixel, Strobe Off",
+      "channels": [
+        "dimmer",
+        "red",
+        "green",
+        "blue"
+      ],
+      "revision": "2020-08-11"
+    },
+    {
+      "source": "builtin/astera/titan-tube",
+      "name": "Astera Titan Tube · 5 · DIM RGBW, 1 pixel, Strobe Off",
+      "channels": [
+        "dimmer",
+        "red",
+        "green",
+        "blue",
+        "white"
+      ],
+      "revision": "2020-08-11"
+    },
+    {
+      "source": "builtin/astera/titan-tube",
+      "name": "Astera Titan Tube · 89 · D CCT GM CRO RGB, 1 pixel, Strobe Off",
+      "channels": [
+        "dimmer",
         "cct",
         "tint",
         "colorMix",
