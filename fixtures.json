@@ -1,0 +1,292 @@
+{
+  "schema": 1,
+  "version": 1,
+  "profiles": [
+    {
+      "source": "builtin/astera/titan-tube",
+      "name": "Astera Titan Tube · 91 · 1 pixel, Strobe Off",
+      "channels": [
+        "dimmer",
+        "dimmerFine",
+        "cct",
+        "tint",
+        "colorMix",
+        "red",
+        "green",
+        "blue"
+      ],
+      "revision": "2020-08-11",
+      "colorEncoding": "astera"
+    },
+    {
+      "source": "builtin/astera/titan-tube",
+      "name": "Astera Titan Tube · 100 · 4 pixels, Strobe Off",
+      "channels": [
+        "dimmer",
+        "dimmerFine",
+        "cct",
+        "tint",
+        "colorMix",
+        "red",
+        "green",
+        "blue",
+        "dimmer",
+        "dimmerFine",
+        "cct",
+        "tint",
+        "colorMix",
+        "red",
+        "green",
+        "blue",
+        "dimmer",
+        "dimmerFine",
+        "cct",
+        "tint",
+        "colorMix",
+        "red",
+        "green",
+        "blue",
+        "dimmer",
+        "dimmerFine",
+        "cct",
+        "tint",
+        "colorMix",
+        "red",
+        "green",
+        "blue"
+      ],
+      "revision": "2020-08-11",
+      "colorEncoding": "astera",
+      "segments": 4
+    },
+    {
+      "source": "builtin/creamsource/vortex8",
+      "name": "Creamsource Vortex8 · Mode 2 · CreamOS 3.1",
+      "channels": [
+        "dimmer",
+        "cct",
+        "tint",
+        "unused",
+        "unused"
+      ],
+      "revision": "3.1B",
+      "colorEncoding": "vortex"
+    },
+    {
+      "source": "builtin/creamsource/vortex8",
+      "name": "Creamsource Vortex8 · Mode 7 · CreamOS 3.1",
+      "channels": [
+        "dimmer",
+        "dimmerFine",
+        "cct",
+        "cctFine",
+        "tint",
+        "tintFine",
+        "unused",
+        "unused"
+      ],
+      "revision": "3.1B",
+      "colorEncoding": "vortex"
+    },
+    {
+      "source": "builtin/arri/skypanel-c",
+      "name": "ARRI SkyPanel C · Mode 1 · FW4.4 · ECC off",
+      "channels": [
+        "dimmer",
+        "cct",
+        "tint",
+        "colorMix",
+        "red",
+        "green",
+        "blue",
+        "white",
+        "unused",
+        "unused",
+        "unused",
+        "unused"
+      ],
+      "revision": "4.4",
+      "colorEncoding": "arri"
+    },
+    {
+      "source": "builtin/arri/skypanel-c",
+      "name": "ARRI SkyPanel C · Mode 2 · FW4.4 · ECC off",
+      "channels": [
+        "dimmer",
+        "cct",
+        "tint",
+        "unused",
+        "unused",
+        "unused",
+        "unused"
+      ],
+      "revision": "4.4",
+      "colorEncoding": "arri"
+    },
+    {
+      "source": "builtin/creamsource/vortex4",
+      "name": "Creamsource Vortex4 · Mode 2 · CreamOS 3.1",
+      "channels": [
+        "dimmer",
+        "cct",
+        "tint",
+        "unused",
+        "unused"
+      ],
+      "revision": "3.1B",
+      "colorEncoding": "vortex"
+    },
+    {
+      "source": "builtin/creamsource/vortex4",
+      "name": "Creamsource Vortex4 · Mode 7 · CreamOS 3.1",
+      "channels": [
+        "dimmer",
+        "dimmerFine",
+        "cct",
+        "cctFine",
+        "tint",
+        "tintFine",
+        "unused",
+        "unused"
+      ],
+      "revision": "3.1B",
+      "colorEncoding": "vortex"
+    },
+    {
+      "source": "builtin/creamsource/vortex4",
+      "name": "Creamsource Vortex4 · Mode 1 · CreamOS 3.1",
+      "channels": [
+        "dimmer",
+        "cct",
+        "tint",
+        "colorMix",
+        "red",
+        "green",
+        "blue",
+        "white",
+        "unused",
+        "unused"
+      ],
+      "revision": "3.1B",
+      "colorEncoding": "vortex"
+    },
+    {
+      "source": "builtin/creamsource/vortex8",
+      "name": "Creamsource Vortex8 · Mode 1 · CreamOS 3.1",
+      "channels": [
+        "dimmer",
+        "cct",
+        "tint",
+        "colorMix",
+        "red",
+        "green",
+        "blue",
+        "white",
+        "unused",
+        "unused"
+      ],
+      "revision": "3.1B",
+      "colorEncoding": "vortex"
+    },
+    {
+      "source": "builtin/aputure/storm-xt52",
+      "name": "Aputure STORM XT52 · Profile 1 · CCT+ 8-bit",
+      "channels": [
+        "dimmer",
+        "cct",
+        "tint"
+      ],
+      "revision": "1.2",
+      "colorEncoding": "aputureStorm"
+    },
+    {
+      "source": "builtin/aputure/storm-xt52",
+      "name": "Aputure STORM XT52 · Profile 2 · CCT+ 16-bit",
+      "channels": [
+        "dimmer",
+        "dimmerFine",
+        "cct",
+        "cctFine",
+        "tint",
+        "tintFine"
+      ],
+      "revision": "1.2",
+      "colorEncoding": "aputureStorm"
+    },
+    {
+      "source": "builtin/aputure/storm-1200x",
+      "name": "Aputure STORM 1200x · Profile 1 · CCT+ 8-bit",
+      "channels": [
+        "dimmer",
+        "cct",
+        "tint"
+      ],
+      "revision": "1.5",
+      "colorEncoding": "aputureStorm"
+    },
+    {
+      "source": "builtin/aputure/storm-1200x",
+      "name": "Aputure STORM 1200x · Profile 2 · CCT+ 16-bit",
+      "channels": [
+        "dimmer",
+        "dimmerFine",
+        "cct",
+        "cctFine",
+        "tint",
+        "tintFine"
+      ],
+      "revision": "1.5",
+      "colorEncoding": "aputureStorm"
+    },
+    {
+      "source": "builtin/aputure/storm-700x",
+      "name": "Aputure STORM 700x · Profile 1 · CCT+ 8-bit",
+      "channels": [
+        "dimmer",
+        "cct",
+        "tint"
+      ],
+      "revision": "1.1",
+      "colorEncoding": "aputureStorm700400"
+    },
+    {
+      "source": "builtin/aputure/storm-700x",
+      "name": "Aputure STORM 700x · Profile 2 · CCT+ 16-bit",
+      "channels": [
+        "dimmer",
+        "dimmerFine",
+        "cct",
+        "cctFine",
+        "tint",
+        "tintFine"
+      ],
+      "revision": "1.1",
+      "colorEncoding": "aputureStorm700400"
+    },
+    {
+      "source": "builtin/aputure/storm-400x",
+      "name": "Aputure STORM 400x · Profile 1 · CCT+ 8-bit",
+      "channels": [
+        "dimmer",
+        "cct",
+        "tint"
+      ],
+      "revision": "1.1",
+      "colorEncoding": "aputureStorm700400"
+    },
+    {
+      "source": "builtin/aputure/storm-400x",
+      "name": "Aputure STORM 400x · Profile 2 · CCT+ 16-bit",
+      "channels": [
+        "dimmer",
+        "dimmerFine",
+        "cct",
+        "cctFine",
+        "tint",
+        "tintFine"
+      ],
+      "revision": "1.1",
+      "colorEncoding": "aputureStorm700400"
+    }
+  ]
+}
