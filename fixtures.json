@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": 1,
+  "version": 2,
   "profiles": [
     {
       "source": "builtin/astera/titan-tube",
@@ -287,6 +287,81 @@
       ],
       "revision": "1.1",
       "colorEncoding": "aputureStorm700400"
+    },
+    {
+      "source": "tunder/astera/ax2-100",
+      "name": "Astera AX2-100 PixelBar · 1 · RGB, 1 pixel, Strobe Off",
+      "channels": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "revision": "2020-08-11"
+    },
+    {
+      "source": "tunder/astera/ax2-100",
+      "name": "Astera AX2-100 PixelBar · 2 · RGBW, 1 pixel, Strobe Off",
+      "channels": [
+        "red",
+        "green",
+        "blue",
+        "white"
+      ],
+      "revision": "2020-08-11"
+    },
+    {
+      "source": "tunder/astera/ax2-100",
+      "name": "Astera AX2-100 PixelBar · 4 · DIM RGB, 1 pixel, Strobe Off",
+      "channels": [
+        "dimmer",
+        "red",
+        "green",
+        "blue"
+      ],
+      "revision": "2020-08-11"
+    },
+    {
+      "source": "tunder/astera/ax2-100",
+      "name": "Astera AX2-100 PixelBar · 5 · DIM RGBW, 1 pixel, Strobe Off",
+      "channels": [
+        "dimmer",
+        "red",
+        "green",
+        "blue",
+        "white"
+      ],
+      "revision": "2020-08-11"
+    },
+    {
+      "source": "tunder/astera/ax2-100",
+      "name": "Astera AX2-100 PixelBar · 89 · D CCT GM CRO RGB, 1 pixel, Strobe Off",
+      "channels": [
+        "dimmer",
+        "cct",
+        "tint",
+        "colorMix",
+        "red",
+        "green",
+        "blue"
+      ],
+      "revision": "2020-08-11",
+      "colorEncoding": "astera"
+    },
+    {
+      "source": "tunder/astera/ax2-100",
+      "name": "Astera AX2-100 PixelBar · 91 · D16 CCT GM C RGB, 1 pixel, Strobe Off",
+      "channels": [
+        "dimmer",
+        "dimmerFine",
+        "cct",
+        "tint",
+        "colorMix",
+        "red",
+        "green",
+        "blue"
+      ],
+      "revision": "2020-08-11",
+      "colorEncoding": "astera"
     }
   ]
 }
